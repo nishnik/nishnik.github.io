@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hey there! I am Nishant Nikhil, an undergraduate student at IIT Kharagpur majoring in Mathematics and Computing.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am quite enthusiastic about robotics and this year [KRSSG](http://www.krssg.in) is going to represent India in Robocup at 3D-Simulation League at Leipzig, Germany. I am artificial intelligence team member of Kharagpur Robo-Soccer Students' Group. I like competitive programming and have also done some application development in Android and Windows, front-end programming and back-end programming. One of my work is [Code-O-Soccer](http://event.krssg.in). I am always open for a talk and travel. And these days I am more into soft-computing tools than hard-computing tools.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[nishantiam@gmail.com](mailto:nishantiam@gmail.com)<br/>
+[Github](https://github.com/nishnik)
