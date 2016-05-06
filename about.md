@@ -12,5 +12,5 @@ I am quite enthusiastic about robotics and this year [KRSSG](http://www.krssg.in
 
 ### Contact me
 
-[nishantiam@gmail.com](mailto:nishantiam@gmail.com)<br/>
+[Mail](mailto:nishantiam@gmail.com)<br/>
 [Github](https://github.com/nishnik)
