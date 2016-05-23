@@ -1,3 +1,8 @@
+---
+layout: post
+title: Hello World!
+---
+
 Hello World!
 My previous blog posts were at: [Global Class](http://nishantnikhil.weebly.com/).
 
