@@ -17,6 +17,7 @@ Now, comes the problem of factoring the polynomials.<br/>
 We have explicit solution formulas only till polynomials of degree four(the Quadtratic formula for degree 2, [the Cardano formulas](http://en.wikipedia.org/wiki/Cardano_formula#Cardano.27s_method) for third-degree equations, and [the Ferrari formula](http://en.wikipedia.org/wiki/Quartic_function#The_general_case.2C_along_Ferrari.27s_lines) for degree 4).<br/>
 For sure, we need a different way out for higher degree polynomials.
 We see that there are algorithms for factorization in finite fields:
+
 - [Cantor–Zassenhaus algorithm](https://en.wikipedia.org/wiki/Cantor%E2%80%93Zassenhaus_algorithm)
 - [Berlekamp's algorithm](https://en.wikipedia.org/wiki/Berlekamp's_algorithm)
 
@@ -30,7 +31,7 @@ My proposal can be found [here](https://github.com/sympy/sympy/wiki/GSoC-2016-Ap
 
 I have been alloted [Isuru Fernando](https://github.com/isuruf), [Thilina Rathnayake](https://github.com/thilinarmtb), [Sumith](https://github.com/Sumith1896) and [Ondřej Čertík](https://github.com/certik) as mentors.<br/>
 The SymEngine community is very fast in reachability.
-We had a discussion on [gitter channel of SymEngine](https://gitter.im/symengine/symengine), about the proceedings of our Proposal. As SymEngine has an implementaion of sparse polynomials, I will be working on changing them to Finite Fields. Like:
+We had a discussion on [gitter channel of SymEngine](https://gitter.im/symengine/symengine), about the proceedings of our Proposals. As SymEngine has an implementaion of sparse polynomials, I will be working on changing them to Finite Fields. Like:<br/><br/>
 ```
 GaloisField::GaloisField(std::map<unsigned, int> &dict, unsigned modulo) : modulo_(modulo)
 {
@@ -42,6 +43,7 @@ GaloisField::GaloisField(std::map<unsigned, int> &dict, unsigned modulo) : modul
 	}
 }
 ```
+<br/>
 where `dict` is the dictionary of Univariate Polynomial representation and, `dict_` stores its finite field representation modulo `modulo_`.
 I will be implementing this in the first week of GSoC period.
 
