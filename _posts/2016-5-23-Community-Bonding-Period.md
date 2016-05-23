@@ -1,6 +1,6 @@
 ![Logo](https://summerofcode.withgoogle.com/static/img/summer-of-code-logo.svg)
 
-I have been selected for GSoC'16 to work with [Sympy](http://www.sympy.org/) on **Implementing Finite Fields and Set module in SymEngine".
+I have been selected for GSoC'16 to work with [Sympy](http://www.sympy.org/) on **Implementing Finite Fields and Set module in SymEngine**.
 
 > [SymEngine](https://github.com/sympy/symengine) is a standalone fast C++ symbolic manipulation library.
 
