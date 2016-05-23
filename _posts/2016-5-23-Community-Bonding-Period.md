@@ -32,7 +32,7 @@ My proposal can be found [here](https://github.com/sympy/sympy/wiki/GSoC-2016-Ap
 I have been alloted [Isuru Fernando](https://github.com/isuruf), [Thilina Rathnayake](https://github.com/thilinarmtb), [Sumith](https://github.com/Sumith1896) and [Ondřej Čertík](https://github.com/certik) as mentors.<br/>
 The SymEngine community is very fast in reachability.
 We had a discussion on [gitter channel of SymEngine](https://gitter.im/symengine/symengine), about the proceedings of our Proposals. As SymEngine has an implementaion of sparse polynomials, I will be working on changing them to Finite Fields. Like:<br/><br/>
-```C++
+```
 GaloisField::GaloisField(std::map<unsigned, int> &dict, unsigned modulo) : modulo_(modulo)
 {
 	unsigned temp;
