@@ -3,6 +3,8 @@ layout: post
 title: GSoC First Week
 ---
 
+![Logo](https://summerofcode.withgoogle.com/static/img/summer-of-code-logo.svg)
+
 Previously, I was working on the [PR](https://github.com/symengine/symengine/pull/942) for `FiniteSet` implementation.
 I managed to get it merged this week. So, now we have `UniversalSet`, `EmptySet`, `Interval` and `FiniteSet` implementation in SymEngine.
 Where in `FiniteSet` we have a `set_basic` which can contain any `Basic` object. That is apart from `Number` objects we can have `Symbol` objects as well, and even an `Expression`.<br/>
