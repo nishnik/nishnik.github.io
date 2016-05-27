@@ -11,13 +11,14 @@ Then I started working on implementing `FiniteField`. I have sent this [PR](http
 While implementing this, I thought of writing tests after doing the whole implementation. And when I wrote the tests, I realized how badly I had done the implementation, like missing corner cases and all. It is always a better practice to write tests parallely with your implementation.<br/>
 
 So, As of now I have implemented the following functions:
-* `gf_add_ground(const integer_class a)`
-* `gf_sub_ground(const integer_class a)`
-* `gf_mul_ground(const integer_class a)`
-* `gf_quo_ground(const integer_class a)`
-* `gf_add(const RCP<const GaloisField> &o)`
-* `gf_sub(const RCP<const GaloisField> &o)`
-* `gf_mul(const RCP<const GaloisField> &o)`
+
+1. `gf_add_ground(const integer_class a)`
+2. `gf_sub_ground(const integer_class a)`
+3. `gf_mul_ground(const integer_class a)`
+4. `gf_quo_ground(const integer_class a)`
+5. `gf_add(const RCP<const GaloisField> &o)`
+6. `gf_sub(const RCP<const GaloisField> &o)`
+7. `gf_mul(const RCP<const GaloisField> &o)`
 
 Where `gf_*_ground` does the operation represented by `*` by the integer `a` to the polynomaial in the given field.
 And `gf_add`, `gf_sub`, `gf_mul` do their respective operation with another polynomial in the finite field.
