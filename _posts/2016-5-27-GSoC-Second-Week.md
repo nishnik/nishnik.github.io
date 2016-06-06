@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GSoC First Week
+title: GSoC Second Week
 ---
 
 ![Logo](https://summerofcode.withgoogle.com/static/img/summer-of-code-logo.svg)
