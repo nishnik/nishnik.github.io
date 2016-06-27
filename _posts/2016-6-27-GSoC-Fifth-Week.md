@@ -8,7 +8,7 @@ title: GSoC Fifth Week
 This week, I had been working on [distinct degree factorization](https://en.wikipedia.org/wiki/Factorization_of_polynomials_over_finite_fields#Distinct-degree_factorization) in [this](https://github.com/symengine/symengine/pull/995) PR.<br/>
 
 Distinct degree factorization splits a square-free polynomial into a product of polynomials whose irreducible factors all have the same degree.
-<br/>Suppose we have `a polynomial: 
+<br/>Suppose we have a polynomial: 
 
 ```
 x**15 - 1
@@ -35,7 +35,7 @@ x**10 + x**5 + 1
 
 is product of polynomials of degree 2.
 
-The factorization is achieved by exploiting the fact that:So,
+The factorization is achieved by exploiting the fact that:
 
 ![Lemma](http://i.imgur.com/N9zZW26.png)
 
@@ -44,4 +44,4 @@ So, for every degree `i` less than half of polynomial's degree, we find the `gcd
 Then we have to find its equal degree factorization, I have implemented it and I am testing it with different cases.
 It will run on every input provided from distinct-degree factorization, and break it into polynomials with equal degrees.
 <br/>
-Current I am working on Cantor-Zassenhaus's algorithm.
+Currently I am implementing Cantor-Zassenhaus's algorithm.
