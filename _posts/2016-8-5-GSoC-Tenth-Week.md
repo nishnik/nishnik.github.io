@@ -7,22 +7,29 @@ title: GSoC Tenth Week
 
 This week, I had been working on implementaion of `Union` and `Contains` in [this](https://github.com/symengine/symengine/pull/1053) PR. <br>
 Our `Set::contains` function has been changed from :
-```
+
+``` C++
 virtual bool contains(const RCP<const Basic> &a) const = 0;
 ```
+
 to
-```
+
+```C++
 virtual RCP<const Boolean> contains(const RCP<const Basic> &a) const = 0;
 ```
+
 And these functions:
-```
+
+```C++
 virtual bool is_subset(const RCP<const Set> &o) const = 0;
 virtual bool is_proper_subset(const RCP<const Set> &o) const = 0;
 virtual bool is_superset(const RCP<const Set> &o) const = 0;
 virtual bool is_proper_superset(const RCP<const Set> &o) const = 0;
 ```
+
 have been changed to:
-```
+
+```C++
 bool is_subset(const RCP<const Set> &o) const
 {
     return eq(*this->set_intersection(o), *this);
@@ -40,6 +47,7 @@ bool is_proper_superset(const RCP<const Set> &o) const
     return not eq(*this, *o) and this->is_superset(o);
 }
 ```
+
 depending solely on `set_intersection`.
 
 Then the `SymEngine::set_union(const set_set &in, bool solve = true)` has been defined which will create a `Union` object with `in` if it is not solvable, or will do union operation on all of them.
